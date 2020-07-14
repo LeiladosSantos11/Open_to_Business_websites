@@ -6,6 +6,10 @@ body {
   padding: 0;
   background-color: black;
 }
+
+body {
+  overflow-x: hidden;
+}
 /*
 *,
 ::after,
@@ -19,6 +23,11 @@ body {
   margin-block-start: 0;
   margin-block-end: 0;
 }
+
+div.col-12 {
+  padding-left: 0 !important;
+  margin: 0px !important;
+}
 */
 div .col- .col-sm .col-md .col-lg .col-x .col-12 {
   margin: 0 !important;
@@ -27,17 +36,13 @@ div .col- .col-sm .col-md .col-lg .col-x .col-12 {
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-div.col-12 {
-  padding-left: 0 !important;
-  margin: 0px !important;
-}
 header {
   background-color: black;
   display: flex;
   justify-content: space-between;
   text-align: center;
-  width: 100vw;
-  height: 35vh;
+  /*width: 100vw; 
+  height: 35vh;*/
   padding: 0px;
   border: 0;
   margin: 0px auto;
@@ -51,7 +56,7 @@ header li {
   text-align: left;
   font-size: 17px;
   font-weight: 400;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 ul #nav-menu {
@@ -87,20 +92,21 @@ header nav .navbar #nav {
 header .first-heading {
   font-weight: 600;
   font-size: 45px;
-  color: rgb(165, 69, 31);
+  color: #f2f2f2;
 
-  margin-top: 15px;
-  padding-top: 5px;
-  padding-left: 10px;
+  text-align: center;
+  margin-top: 55px;
+
   line-height: 0.8;
 }
 
 .subheading {
-  color: white;
-
+  color: rgb(165, 69, 31);
   font-weight: 600;
   font-size: 20px;
-  margin: 10px;
+  padding: 5px 0;
+  display: flex;
+  text-align: center;
 }
 /*
 .carousel-inner {
@@ -110,6 +116,10 @@ position: absolute;
   align-items: center;
   text-align: center;
   */
+.container-pictures {
+  padding-left: 0;
+  padding-top: 0;
+}
 #carousel-wrapper {
   overflow: hidden;
   width: 100%;
@@ -142,19 +152,17 @@ img .d-block .w-100 {
 }
 
 div #about-img {
-  background-image: url("../Images/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
-  width: 50vw;
-  height: 90vh;
+  background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+  width: 50vw;
 }
 
 #content-about {
   background-color: rgb(180, 167, 167);
-
-  width: 50vw;
-  height: 100vh;
 }
 
 div #content-about h2 {
@@ -163,7 +171,7 @@ div #content-about h2 {
   font-weight: 700;
   font-size: 42px;
   color: black;
-  padding-top: 50px;
+  padding: 50px 0 20px 0;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -176,8 +184,7 @@ div #content-about p {
   font-size: 20px;
   color: black;
   padding-top: 50px;
-  display: flex;
-  text-align: center;
+
   text-align: center;
 }
 
@@ -192,8 +199,6 @@ div #do-img {
 
 #content-do-it {
   background-color: rgb(180, 167, 167);
-  width: 50vw;
-  height: 100vh;
 }
 
 .container-do-it {
@@ -226,7 +231,7 @@ div #content-do-it p {
 }
 
 div #services-img {
-  background-image: url("../Images/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
+  background-image: url("../Img/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
   width: 50vw;
   height: 100vh;
   background-position: center;
@@ -236,8 +241,6 @@ div #services-img {
 
 #content-services {
   background-color: rgb(180, 167, 167);
-  width: 50vw;
-  height: 100vh;
 }
 
 .container-services {
@@ -251,7 +254,7 @@ div #content-services h2 {
   font-weight: 700;
   font-size: 42px;
   color: black;
-  padding-top: 50px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -266,7 +269,7 @@ div #content-services p {
   padding: 10px;
 
   display: flex;
-  justify-content: center;
+
   text-align: center;
 }
 
@@ -275,7 +278,7 @@ footer {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   height: 15vh;
   padding: 0px;
   border: 0;
