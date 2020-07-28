@@ -154,7 +154,8 @@ img .d-block .w-100 {
 }
 
 div #about-img {
-  background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
+  background-image: url("../Img/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,7 +173,7 @@ div #content-about h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 42px;
-  color: black;
+  color: rgb(165, 69, 31);
   padding: 50px 0 20px 0;
   display: flex;
   text-align: center;
@@ -214,7 +215,7 @@ div #content-do-it h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 42px;
-  color: black;
+  color: rgb(165, 69, 31);
   padding-top: 50px;
   display: grid;
   justify-content: center;
@@ -227,14 +228,20 @@ div #content-do-it p {
   font-weight: 400;
   font-size: 20px;
   color: black;
-  padding-top: 50px;
+  padding-top: 20px;
   display: grid;
   justify-content: center;
   text-align: center;
 }
 
+.list-do-it li {
+  background-color: rgb(180, 167, 167);
+  padding-left: 50px;
+  border: 10px;
+  list-style: none;
+}
 div #services-img {
-  background-image: url("../Img/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
+  background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
   width: 50vw;
   height: 100vh;
   background-position: center;
@@ -256,7 +263,7 @@ div #content-services h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 42px;
-  color: black;
+  color: rgb(165, 69, 31);
   padding-top: 30px;
   display: grid;
   justify-content: center;
@@ -273,7 +280,6 @@ div #content-services p {
   margin-left: 5px;
   padding-left: 10px;
   display: grid;
-
   text-align: center;
 }
 
