@@ -236,9 +236,15 @@ div #content-do-it p {
 
 .list-do-it li {
   background-color: rgb(180, 167, 167);
-  padding-left: 50px;
+  padding-left: 100px;
   border: 10px;
   list-style: none;
+}
+
+#p-do-it {
+  background-color: rgb(180, 167, 167);
+  padding-left: 70px;
+  font-weight: 600;
 }
 div #services-img {
   background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
