@@ -158,12 +158,18 @@ img #image .two {
   position: absolute;
   transform: translate(-50%, -50%);
    background-color: transparent;
-  */
+  
   display: inline-flex;
+  */
   color: rgb(231, 222, 218);
   opacity: 1;
   font-size: 100px;
   font-weight: 600;
+  display: flex;
+
+  padding-left: 20px;
+  margin-top: 50px;
+  justify-content: center;
 }
 
 .container-about {
