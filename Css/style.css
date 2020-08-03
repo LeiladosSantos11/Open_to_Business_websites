@@ -4,7 +4,8 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #212529;
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -51,8 +52,9 @@ header li {
   opacity: 0.75;
   color: #f2f2f2;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
   margin-left: 7px;
+  font-family: "garamond";
 }
 
 ul #nav-menu {
@@ -64,6 +66,7 @@ header #nav li a {
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
+  font-family: "garamond";
 }
 
 a {
@@ -83,79 +86,96 @@ nav#nav.navbar {
 }
 
 div.header-headings {
-  display: grid;
   text-align: center;
 }
 header .first-heading {
-  font-weight: 600;
-  font-size: 45px;
+  padding-left: 20px;
+  font-weight: 800;
+  font-size: 35px;
   color: #f2f2f2;
-  display: grid;
-  text-align: center;
+  display: inline-block;
   margin-top: 50px;
   line-height: 0.8;
-  padding-left: 20px;
+  font-family: "poppins";
+  -ms-high-contrast-adjust: initial;
 }
 
 .subheading {
   color: rgb(165, 69, 31);
   font-weight: 600;
-  font-size: 30px;
-  padding: 5px 0;
-  display: grid;
-  text-align: center;
+  font-size: 20px;
+  padding: 5px 0 5px 50px;
+  display: flex;
+  font-family: "poppins";
 }
-
 /*
-.carousel-inner {
-  transform-style: preserve-3d;
-}
-position: absolute;
-  align-items: center;
-  text-align: center;
-
-  .carousel-wrapper * {
+#carousel-wrapper {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
   box-sizing: border-box;
 }
-
-.container-pictures {
+*/
+img .d-block .w-100 {
   padding-left: 0;
   padding-top: 0;
 }
 
-
-  */
-#carousel-wrapper {
-  overflow: hidden;
+#container-pictures {
+  height: 70%;
   width: 100%;
+  /*
+  overflow: hidden;
+  line-height: 1;
+  background-position: 100%;
+  */
+}
+
+.carousel-inner {
+  transform-style: preserve-3d;
 }
 
 img #img {
-  position: absolute;
+  position: relative;
   width: max-content;
-  /*height: 855px; */
-  left: 0;
+  text-align: center;
+  height: 70%;
+  height: 855px;
+}
+img #image .two {
+  text-align: center;
+  position: relative;
+  width: 70%;
 }
 
-img .d-block .w-100 {
+#text {
+  text-align: center;
+}
+
+#caroulsel-heading {
+  /*
+  display: flex;
   position: absolute;
-  border: 0px;
-  margin: 0px auto;
-  padding: 0px;
-  width: 70%;
-  height: 100%;
-  z-index: 100;
+  transform: translate(-50%, -50%);
+   background-color: transparent;
+  */
+  display: inline-flex;
+  color: rgb(231, 222, 218);
+  opacity: 1;
+  font-size: 100px;
+  font-weight: 600;
 }
 
 .container-about {
   background-color: rgb(180, 167, 167);
   margin: 0px auto;
   margin-top: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 div #about-img {
   background-image: url("../Img/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,15 +186,16 @@ div #about-img {
 
 #content-about {
   background-color: rgb(180, 167, 167);
+  display: inline;
 }
 
 div #content-about h2 {
   background-color: rgb(180, 167, 167);
-  font-family: "Montserrat", sans-serif;
+  font-family: "poppins";
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding: 50px 0 20px 0;
+  padding: 30px 0;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -182,13 +203,13 @@ div #content-about h2 {
 
 div #content-about p {
   background-color: rgb(180, 167, 167);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-family: "poppins";
+  font-weight: 500;
   font-size: 20px;
-  color: black;
+  color: rgb(26, 26, 26, 0.7);
   padding-top: 50px;
-
   text-align: center;
+  padding: 10px;
 }
 
 div #do-img {
@@ -207,7 +228,9 @@ div #do-img {
 
 .container-do-it {
   background-color: rgb(180, 167, 167);
+  margin: 0px auto;
   margin-top: 20px;
+  padding: 20px;
 }
 
 div #content-do-it h2 {
@@ -216,29 +239,35 @@ div #content-do-it h2 {
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding-top: 50px;
+  padding: 30px 0;
   display: grid;
   justify-content: center;
   text-align: center;
 }
+#content-about {
+  text-align: center;
+  padding: 20px;
+}
 
-div #content-do-it p {
+div .content-do-it p {
   background-color: rgb(180, 167, 167);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-family: "poppins";
+  font-weight: 500;
   font-size: 20px;
-  color: black;
-  padding-top: 20px;
+  color: rgb(26, 26, 26, 0.7);
+  padding: 10px;
   display: grid;
   justify-content: center;
-  text-align: center;
 }
 
 .list-do-it li {
   background-color: rgb(180, 167, 167);
-  padding-left: 100px;
-  border: 10px;
+  padding: 5px;
+  padding-left: 20px;
   list-style: none;
+  text-decoration: none;
+  font-family: "poppins";
+  font-weight: 500;
 }
 
 #p-do-it {
@@ -257,20 +286,23 @@ div #services-img {
 
 #content-services {
   background-color: rgb(180, 167, 167);
+  padding: 20px;
 }
 
 .container-services {
   background-color: rgb(180, 167, 167);
+
+  margin: 0px auto;
   margin-top: 20px;
 }
 
 div #content-services h2 {
   background-color: rgb(180, 167, 167);
-  font-family: "Montserrat", sans-serif;
+  font-family: "poppins";
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding-top: 30px;
+  padding-top: 30px 0;
   display: grid;
   justify-content: center;
   text-align: center;
@@ -278,13 +310,13 @@ div #content-services h2 {
 
 div #content-services p {
   background-color: rgb(180, 167, 167);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-family: "poppins";
+  font-weight: 500;
   font-size: 20px;
-  color: black;
+  color: rgb(26, 26, 26, 0.7);
   padding: 10px;
   margin-left: 5px;
-  padding-left: 10px;
+  padding-left: 20px;
   display: grid;
   text-align: center;
 }
