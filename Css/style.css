@@ -403,11 +403,11 @@ div #blog-img {
   background-size: cover;
 }
 
-#blog-services {
+.blog-session {
   background-color: rgb(180, 167, 167);
 }
 
-.container-blog {
+#content-blog .container-blog {
   background-color: rgb(180, 167, 167);
   margin: 0px auto;
   margin-top: 20px;
