@@ -10,7 +10,7 @@ body {
 
 body {
   overflow-x: hidden;
-  background-color: #212529 !important;
+  background-color: rgb(15, 14, 20) !important;
 }
 
 *,
@@ -39,11 +39,13 @@ div .col- .col-sm .col-md .col-lg .col-x .col-12 {
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
+/*----Header Session/NavBar----*/
 #header.container {
-  background-color: #212529;
-  padding: 0px;
+  background-color: rgb(15, 14, 20);
+  /*
   border: 0;
   margin: 0px;
+  */
 }
 
 header li {
@@ -92,7 +94,7 @@ header .first-heading {
   padding-left: 20px;
   font-weight: 800;
   font-size: 35px;
-  color: #f2f2f2;
+  color: rgb(242, 242, 242);
   display: inline-block;
   margin-top: 50px;
   line-height: 0.8;
@@ -102,6 +104,7 @@ header .first-heading {
 
 .subheading {
   color: rgb(165, 69, 31);
+
   font-weight: 600;
   font-size: 20px;
   padding: 5px 0 5px 50px;
@@ -121,6 +124,7 @@ img .d-block .w-100 {
   padding-top: 0;
 }
 
+/*----Caroulsel Pictures----*/
 #container-pictures {
   height: 70%;
   width: 100%;
@@ -137,11 +141,13 @@ img .d-block .w-100 {
 
 img #img {
   position: relative;
-  width: max-content;
   text-align: center;
-  height: 70%;
-  height: 855px;
+  width: 70%;
+  /*height: 70%;
+   width: max-content;
+ height: 855px;*/
 }
+
 img #image .two {
   text-align: center;
   position: relative;
@@ -153,31 +159,31 @@ img #image .two {
 }
 
 #caroulsel-heading {
-  /*
-  display: flex;
-  position: absolute;
-  transform: translate(-50%, -50%);
-   background-color: transparent;
-  
-  display: inline-flex;
-  */
-  color: rgb(231, 222, 218);
   opacity: 1;
-  font-size: 100px;
-  font-weight: 600;
-  display: flex;
-
-  padding-left: 20px;
-  margin-top: 50px;
-  justify-content: center;
+  font-size: 60px;
+  font-weight: 1000;
+  display: inline;
+  padding-bottom: 50px;
+  margin: 0 auto;
 }
 
+#caroulsel-heading h2 {
+  color: rgb(242, 242, 242);
+  padding: 50px;
+}
+
+span {
+  color: rgb(165, 69, 31);
+}
+
+/*-----------------------------------------
+ABOUT Session----------------------------------
+---------------------------------------------*/
 .container-about {
   background-color: rgb(180, 167, 167);
   margin: 0px auto;
   margin-top: 20px;
   text-align: center;
-  padding: 20px;
 }
 
 div #about-img {
@@ -187,7 +193,8 @@ div #about-img {
   background-size: cover;
   margin: 0 auto;
   height: 100vh;
-  width: 50vw;
+  width: 100vw;
+  opacity: 0.8;
 }
 
 #content-about {
@@ -201,8 +208,8 @@ div #content-about h2 {
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding: 30px 0;
-  display: flex;
+  padding: 40px 0px 30px 0;
+  margin: 0 auto;
   text-align: center;
   justify-content: center;
 }
@@ -211,16 +218,17 @@ div #content-about p {
   background-color: rgb(180, 167, 167);
   font-family: "poppins";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(26, 26, 26, 0.7);
+  margin: 0 auto;
   padding-top: 50px;
-  text-align: center;
-  padding: 10px;
+  text-align: left;
+  padding: 5px;
 }
+/*----Content Session----*/
 
 div #do-img {
   background-image: url("../Img/joel-wyncott-6_OoBGfQOfY-unsplash.jpg");
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -236,7 +244,6 @@ div #do-img {
   background-color: rgb(180, 167, 167);
   margin: 0px auto;
   margin-top: 20px;
-  padding: 20px;
 }
 
 div #content-do-it h2 {
@@ -245,35 +252,26 @@ div #content-do-it h2 {
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding: 30px 0;
+  padding: 40px 0px 30px 0;
+  margin: 0 auto;
   display: grid;
   justify-content: center;
   text-align: center;
 }
 #content-about {
   text-align: center;
-  padding: 20px;
 }
 
-div .content-do-it p {
+div #content-do-it p {
   background-color: rgb(180, 167, 167);
   font-family: "poppins";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(26, 26, 26, 0.7);
   padding: 10px;
   display: grid;
-  justify-content: center;
-}
-
-.list-do-it li {
-  background-color: rgb(180, 167, 167);
-  padding: 5px;
-  padding-left: 20px;
-  list-style: none;
-  text-decoration: none;
-  font-family: "poppins";
-  font-weight: 500;
+  text-align: left;
+  padding-top: 5px;
 }
 
 #p-do-it {
@@ -281,6 +279,8 @@ div .content-do-it p {
   padding-left: 70px;
   font-weight: 600;
 }
+
+/*----Service Session----*/
 div #services-img {
   background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
   width: 50vw;
@@ -292,12 +292,10 @@ div #services-img {
 
 #content-services {
   background-color: rgb(180, 167, 167);
-  padding: 20px;
 }
 
 .container-services {
   background-color: rgb(180, 167, 167);
-
   margin: 0px auto;
   margin-top: 20px;
 }
@@ -308,9 +306,9 @@ div #content-services h2 {
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding-top: 30px 0;
+  padding: 40px 0px 30px 0;
+  margin: 0 auto;
   display: grid;
-  justify-content: center;
   text-align: center;
 }
 
@@ -318,17 +316,30 @@ div #content-services p {
   background-color: rgb(180, 167, 167);
   font-family: "poppins";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(26, 26, 26, 0.7);
   padding: 10px;
   margin-left: 5px;
   padding-left: 20px;
   display: grid;
-  text-align: center;
+  text-align: left;
+}
+div #content-services li {
+  background-color: rgb(180, 167, 167);
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 30px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(238, 230, 230, 0.7);
 }
 
+/*----Footer Session----*/
 footer {
-  background-color: black;
+  background-color: rgb(15, 14, 20);
   display: grid;
   justify-content: space-between;
   text-align: center;
