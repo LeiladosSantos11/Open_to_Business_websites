@@ -122,6 +122,7 @@ header .first-heading {
 img .d-block .w-100 {
   padding-left: 0;
   padding-top: 0;
+  height: 70%;
 }
 
 /*----Caroulsel Pictures----*/
@@ -423,7 +424,7 @@ div #content-blog h2 {
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding: 40px 0px 30px 0;
+  padding: 30px;
   margin: 0 auto;
   display: grid;
   text-align: center;
@@ -440,4 +441,27 @@ div #content-blog p {
 
   display: grid;
   text-align: left;
+}
+
+#blog-img h2 {
+  opacity: 1;
+  font-family: "poppins";
+  font-size: 60px;
+  font-weight: 1000;
+  display: inline;
+  /*margin: 0 auto; */
+  margin-top: 40px;
+  color: rgb(242, 242, 242);
+  padding: 0px;
+}
+
+.blog-heading h2 {
+  display: inline;
+  align-content: center;
+  margin: 50px;
+  padding: 40px;
+}
+
+span {
+  color: rgb(165, 69, 31);
 }
