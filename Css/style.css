@@ -211,7 +211,7 @@ div #content-about h2 {
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding: 40px 0px 30px 0;
+  padding: 30px 0px 20px 0px;
   margin: 0 auto;
   text-align: center;
   justify-content: center;
@@ -223,11 +223,13 @@ div #content-about p {
   font-weight: 500;
   font-size: 25px;
   color: rgb(26, 26, 26, 0.7);
+  padding: 10px;
   margin: 0px 5px;
-  padding-top: 50px;
+  display: grid;
   text-align: left;
-  padding: 5px;
+  padding-left: 20px;
 }
+
 /*----Content Session----*/
 
 div #do-img {
@@ -255,7 +257,7 @@ div #content-do-it h2 {
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding: 40px 0px 30px 0;
+  padding: 30px 0px 20px 0px;
   margin: 0 auto;
   display: grid;
   justify-content: center;
@@ -275,7 +277,7 @@ div #content-do-it p {
   margin: 0px 5px;
   display: grid;
   text-align: left;
-  padding-top: 5px;
+  padding-left: 20px;
 }
 
 #p-do-it {
@@ -310,7 +312,7 @@ div #content-services h2 {
   font-weight: 700;
   font-size: 42px;
   color: rgb(165, 69, 31);
-  padding: 40px 0px 30px 0;
+  padding: 30px 0px 20px 0px;
   margin: 0 auto;
   display: grid;
   text-align: center;
@@ -322,8 +324,8 @@ div #content-services p {
   font-weight: 500;
   font-size: 25px;
   color: rgb(26, 26, 26, 0.7);
-  padding: 10px;
-  margin: 0px 5px;
+  padding: 10px 0px 0px 0px;
+  margin: 0 5px;
   padding-left: 20px;
   display: grid;
   text-align: left;
@@ -340,36 +342,67 @@ div #content-services li {
   font-weight: 700;
   color: rgba(238, 230, 230, 0.7);
 }
+/*----Button--------*/
+a #btn .btn {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+ 
+  justify-content: center;
+  
+  width: 30px;
+  height: 50px;
+}
 
+#btn {
+  color: rgba(238, 230, 230, 0.7);
+  background-color: rgb(26, 26, 26, 0.7);
+  font-family: "poppins";
+  background-color: rgb(165, 69, 31);
+  padding-left: 20px;
+  justify-content: center;
+}
+}
 /*----Footer Session----*/
 footer {
   background-color: rgb(15, 14, 20);
+  color: whitesmoke;
   display: grid;
   font-family: "poppins";
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   width: 100%;
   height: 15vh;
-  padding: 0px;
+  padding: 10px;
   border: 0;
   margin: 0;
 }
 
 .heading-footer {
   color: whitesmoke;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 800;
-  padding: 1rem;
-  display: grid;
-  justify-content: center;
-  align-content: center;
+  display: inline;
+  margin-left: 20px;
+  padding-top: 30px;
 }
 
 footer .icons-projects {
-  padding: 10px;
+  padding: 5px 0px;
+  margin-left: 20px;
+ 
+  justify-content: flex-start;
 }
 
-.footer-p {
+.email {
+  padding-top: 30px;
+  margin-left: 20px;
+  display: -ms-inline-grid;
+  justify-content: flex-start;
+}
+/*
+.footer  {
   color: whitesmoke;
   font-family: "poppins";
   font-size: 10px;
@@ -379,7 +412,7 @@ footer .icons-projects {
   justify-content: center;
   align-content: center;
 }
-
+*/
 i {
   height: 10vh;
   opacity: 0.9;
@@ -390,8 +423,8 @@ i {
 }
 
 .icons {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
+  justify-content: left;
 }
 
 .icons :hover {
@@ -429,6 +462,15 @@ div #content-blog h2 {
   display: grid;
   text-align: center;
 }
+#date-author p {
+  font-size: 10px;
+  color: rgb(26, 26, 26, 0.9);
+  padding: 10px;
+  margin: 0px 20px;
+  display: grid;
+  text-align: left;
+}
+
 
 div #content-blog p {
   background-color: rgb(180, 167, 167);
@@ -438,8 +480,7 @@ div #content-blog p {
   color: rgb(26, 26, 26, 0.7);
   padding: 10px;
   margin: 0px 20px;
-
-  display: grid;
+  /*display: grid;*/
   text-align: left;
 }
 
