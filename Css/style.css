@@ -384,7 +384,7 @@ footer {
   font-size: 18px;
   font-weight: 800;
   display: inline;
-  margin-left: 15px;
+  margin-left: 10px;
   padding-top: 30px;
 }
 .subheading-footer {
@@ -392,20 +392,19 @@ footer {
   font-size: 18px;
   font-weight: 800;
   display: inline;
-  margin-left: 20px;
+  margin-left: 10px;
   padding-top: 30px;
 }
 
 footer .icons-projects {
   padding: 5px 0px;
-  margin-left: 20px;
+
   display: inline;
 
 }
 
 .email {
   padding-top: 30px;
-  
   display: -ms-inline-grid;
   justify-content: flex-start;
 }
