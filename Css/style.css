@@ -343,11 +343,11 @@ div #content-services li {
   color: rgba(238, 230, 230, 0.7);
 }
 /*----Button--------*/
-a #btn .btn {
+a #btn {
   justify-content: center;
   align-content: center;
   text-align: center;
-  margin: 0 auto;
+
  
   justify-content: center;
   
@@ -361,6 +361,7 @@ a #btn .btn {
   font-family: "poppins";
   background-color: rgb(165, 69, 31);
   padding-left: 20px;
+  margin: 15px 150px;
   justify-content: center;
 }
 }
