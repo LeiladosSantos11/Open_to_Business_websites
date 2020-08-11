@@ -384,15 +384,22 @@ footer {
   font-size: 18px;
   font-weight: 800;
   display: inline;
-  margin-left: 20px;
+  margin-left: 10px;
   padding-top: 30px;
 }
-
+.subheading-footer {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 800;
+  display: inline;
+  margin-left: 30px;
+  padding-top: 30px;
+}
 footer .icons-projects {
   padding: 5px 0px;
-  margin-left: 20px;
- 
-  justify-content: flex-start;
+  margin-left: 0px;
+  display: inline;
+
 }
 
 .email {
