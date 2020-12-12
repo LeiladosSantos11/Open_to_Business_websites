@@ -30,22 +30,12 @@ div.col-12 {
   padding-left: 0 !important;
   margin: 0px !important;
 }
-/*
-div .col- .col-sm .col-md .col-lg .col-x .col-12 {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-*/
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 /*----Header Session/NavBar----*/
 #header.container {
   background-color: rgb(15, 14, 20);
-  /*
-  border: 0;
-  margin: 0px;
-  */
 }
 
 header li {
@@ -62,6 +52,7 @@ header li {
 ul #nav-menu {
   margin-left: 5px;
 }
+
 header #nav li a {
   list-style: none;
   color: #f2f2f2;
@@ -90,6 +81,7 @@ nav#nav.navbar {
 div.header-headings {
   text-align: center;
 }
+
 header .first-heading {
   padding-left: 20px;
   font-weight: 800;
@@ -111,14 +103,7 @@ header .first-heading {
   display: flex;
   font-family: "poppins";
 }
-/*
-#carousel-wrapper {
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-}
-*/
+
 img .d-block .w-100 {
   padding-left: 0;
   padding-top: 0;
@@ -129,11 +114,6 @@ img .d-block .w-100 {
 #container-pictures {
   height: 70%;
   width: 100%;
-  /*
-  overflow: hidden;
-  line-height: 1;
-  background-position: 100%;
-  */
 }
 
 .carousel-inner {
@@ -144,9 +124,6 @@ img #img {
   position: relative;
   text-align: center;
   width: 70%;
-  /*height: 70%;
-   width: max-content;
- height: 855px;*/
 }
 
 img #image .two {
@@ -179,9 +156,7 @@ span {
   color: rgb(165, 69, 31);
 }
 
-/*-----------------------------------------
-ABOUT Session----------------------------------
----------------------------------------------*/
+/*--------ABOUT Session---------------*/
 .container-about {
   background-color: rgb(180, 167, 167);
   margin: 0px auto;
@@ -263,6 +238,7 @@ div #content-do-it h2 {
   justify-content: center;
   text-align: center;
 }
+
 #content-about {
   text-align: center;
 }
@@ -330,6 +306,7 @@ div #content-services p {
   display: grid;
   text-align: left;
 }
+
 div #content-services li {
   background-color: rgb(180, 167, 167);
   padding: 5px;
@@ -342,15 +319,13 @@ div #content-services li {
   font-weight: 700;
   color: rgba(238, 230, 230, 0.7);
 }
+
 /*----Button--------*/
 a #btn {
   justify-content: center;
   align-content: center;
   text-align: center;
-
- 
   justify-content: center;
-  
   width: 30px;
   height: 50px;
 }
@@ -364,7 +339,7 @@ a #btn {
   margin: 15px 150px;
   justify-content: center;
 }
-}
+
 /*----Footer Session----*/
 footer {
   background-color: rgb(15, 14, 20);
@@ -388,6 +363,7 @@ footer {
   margin-left: 10px;
   padding-top: 30px;
 }
+
 .subheading-footer {
   color: whitesmoke;
   font-size: 18px;
@@ -399,9 +375,7 @@ footer {
 
 footer .icons-projects {
   padding: 5px 0px;
-
   display: inline;
-
 }
 
 .email {
@@ -409,24 +383,12 @@ footer .icons-projects {
   display: -ms-inline-grid;
   justify-content: flex-start;
 }
-/*
-.footer  {
-  color: whitesmoke;
-  font-family: "poppins";
-  font-size: 10px;
-  font-weight: 200;
-  padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-*/
+
 i {
   height: 10vh;
   opacity: 0.9;
   color: whitesmoke;
   align-items: center;
-
   margin-left: 20px;
 }
 
@@ -442,7 +404,6 @@ i {
 /*CSS BLOG PAGE */
 div #blog-img {
   background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
-  /*width: 20vw;*/
   height: 30vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -470,6 +431,7 @@ div #content-blog h2 {
   display: grid;
   text-align: center;
 }
+
 #date-author  {
   font-size: 10px;
   color: rgb(26, 26, 26, 0.9);
@@ -479,7 +441,6 @@ div #content-blog h2 {
   text-align: left;
 }
 
-
 div #content-blog p {
   background-color: rgb(180, 167, 167);
   font-family: "poppins";
@@ -488,7 +449,6 @@ div #content-blog p {
   color: rgb(26, 26, 26, 0.7);
   padding: 10px;
   margin: 0px 20px;
-  /*display: grid;*/
   text-align: left;
 }
 
@@ -498,7 +458,6 @@ div #content-blog p {
   font-size: 60px;
   font-weight: 1000;
   display: inline;
-  /*margin: 0 auto; */
   margin-top: 40px;
   color: rgb(242, 242, 242);
   padding: 0px;
