@@ -1,24 +1,37 @@
+:root {
+  --black: #1c1c1c;
+  --white: #f2f2f2;
+  --white-2: rgb(218, 216, 216);
+  --main-red: #a54517;
+  --main-rose: #c7b4b4;
+  --main-gray: #1a1a1ab3;
+}
+
 *,
-html,
-body {
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "EB Garamond", serif;
-  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
-  background-color: rgb(15, 14, 20) !important;
-}
-
-*,
-::after,
-::before {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--black) !important;
+  text-align: center;
 }
 
 :-webkit-any(article, aside, nav, section) h1 {
@@ -26,27 +39,19 @@ body {
   margin-block-end: 0;
 }
 
-div.col-12 {
-  padding-left: 0 !important;
-  margin: 0px !important;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
-
 /*----Header Session/NavBar----*/
 #header.container {
-  background-color: rgb(15, 14, 20);
+  background-color: var(--main-black);
 }
 
 header li {
   display: inline;
   text-align: center;
   opacity: 0.75;
-  color: #f2f2f2;
+  color: var(--white);
   font-size: 17px;
   font-weight: 500;
   margin-left: 7px;
-  font-family: "poppins";
 }
 
 ul #nav-menu {
@@ -55,11 +60,10 @@ ul #nav-menu {
 
 header #nav li a {
   list-style: none;
-  color: #f2f2f2;
+  color: var(--white);
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  font-family: "poppins";
 }
 
 a {
@@ -72,36 +76,10 @@ a:hover {
 }
 
 nav#nav.navbar {
-  color: #f2f2f2;
+  color: var(--white);
   text-decoration: none;
   padding-top: 10px;
   margin: 0;
-}
-
-div.header-headings {
-  text-align: center;
-}
-
-header .first-heading {
-  padding-left: 20px;
-  font-weight: 800;
-  font-size: 35px;
-  color: rgb(242, 242, 242);
-  display: inline-block;
-  margin-top: 50px;
-  line-height: 0.8;
-  font-family: "poppins";
-  -ms-high-contrast-adjust: initial;
-}
-
-.subheading {
-  color: rgb(165, 69, 31);
-
-  font-weight: 600;
-  font-size: 20px;
-  padding: 5px 0 5px 50px;
-  display: flex;
-  font-family: "poppins";
 }
 
 img .d-block .w-100 {
@@ -133,230 +111,154 @@ img #image .two {
 }
 
 #text {
-  text-align: center;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-40%, -50%);
 }
-
-#caroulsel-heading {
-  opacity: 1;
-  font-family: "poppins";
-  font-size: 60px;
-  font-weight: 1000;
-  display: inline;
-  padding-bottom: 50px;
+.carousel-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
 }
 
-#caroulsel-heading h2 {
-  color: rgb(242, 242, 242);
-  padding: 50px;
-  font-family: "poppins";
-}
-
-span {
-  color: rgb(165, 69, 31);
-}
-
-/*--------ABOUT Session---------------*/
-.container-about {
-  background-color: rgb(180, 167, 167);
+/*----------Sessions-----------------------*/
+#container-about {
+  background-color: var(--main-rose);
   margin: 0px auto;
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 1.25em;
+}
+
+#content-blog {
+  margin-left: 3em;
+}
+/*-----Pictures----*/
+.img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+  opacity: 0.8;
 }
 
 div #about-img {
   background-image: url("../Img/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  height: 100vh;
-  width: 100vw;
-  opacity: 0.8;
 }
 
-#content-about {
-  background-color: rgb(180, 167, 167);
-  display: inline;
+div #do-img {
+  background-image: url("../Img/joel-wyncott-6_OoBGfQOfY-unsplash.jpg");
 }
 
-div #content-about h2 {
-  background-color: rgb(180, 167, 167);
-  font-family: "poppins";
-  font-weight: 700;
-  font-size: 42px;
-  color: rgb(165, 69, 31);
-  padding: 30px 0px 20px 0px;
-  margin: 0 auto;
+div #services-img {
+  background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
+}
+
+/******Typography*******/
+
+/***Nav****/
+.header-headings {
   text-align: center;
-  justify-content: center;
+  padding: 1em 0 1.5em 0;
 }
 
-div #content-about p {
-  background-color: rgb(180, 167, 167);
-  font-family: "poppins";
+header .first-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--white-2);
+}
+
+.subheading {
   font-weight: 500;
-  font-size: 25px;
-  color: rgb(26, 26, 26, 0.7);
-  padding: 10px;
-  margin: 0px 5px;
+  padding: 0;
+  color: var(--main-red);
+  font-size: 1.8rem;
+}
+
+/***Carousel****/
+#caroulsel-heading {
+  opacity: 1;
+  padding: 0;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: left;
+  color: var(--white);
+}
+
+span {
+  color: var(--main-red);
+}
+
+.session-titles {
+  text-align: left;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--main-red);
+  padding: 1.5em 0px 0.3em 1em;
+}
+
+/***Session-Two****/
+.text-session-two {
+  color: var(--main-rose);
+}
+
+h3 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 3em 0;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--main-gray);
   display: grid;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 1.25em;
 }
 
 /*----Content Session----*/
 
-div #do-img {
-  background-image: url("../Img/joel-wyncott-6_OoBGfQOfY-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50vw;
-  height: 100vh;
+.content {
+  background-color: var(--main-rose);
 }
 
-#content-do-it {
-  background-color: rgb(180, 167, 167);
+.text {
+  padding: 3.5em 0;
 }
 
-.container-do-it {
-  background-color: rgb(180, 167, 167);
-  margin: 0px auto;
-  margin-top: 20px;
-}
-
-div #content-do-it h2 {
-  background-color: rgb(180, 167, 167);
-  font-family: "poppins";
-  font-weight: 700;
-  font-size: 42px;
-  color: rgb(165, 69, 31);
-  padding: 30px 0px 20px 0px;
-  margin: 0 auto;
-  display: grid;
-  justify-content: center;
-  text-align: center;
-}
-
-#content-about {
-  text-align: center;
-}
-
-div #content-do-it p {
-  background-color: rgb(180, 167, 167);
-  font-family: "poppins";
+.booking {
+  margin-left: 2em;
   font-weight: 500;
-  font-size: 25px;
-  color: rgb(26, 26, 26, 0.7);
-  padding: 10px;
-  margin: 0px 5px;
-  display: grid;
-  text-align: left;
-  padding-left: 20px;
-}
-
-#p-do-it {
-  background-color: rgb(180, 167, 167);
-  padding-left: 70px;
-  font-weight: 600;
-}
-
-/*----Service Session----*/
-div #services-img {
-  background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
-  width: 50vw;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#content-services {
-  background-color: rgb(180, 167, 167);
-}
-
-.container-services {
-  background-color: rgb(180, 167, 167);
-  margin: 0px auto;
-  margin-top: 20px;
-}
-
-div #content-services h2 {
-  background-color: rgb(180, 167, 167);
-  font-family: "poppins";
-  font-weight: 700;
-  font-size: 42px;
-  color: rgb(165, 69, 31);
-  padding: 30px 0px 20px 0px;
-  margin: 0 auto;
-  display: grid;
-  text-align: center;
-}
-
-div #content-services p {
-  background-color: rgb(180, 167, 167);
-  font-family: "poppins";
-  font-weight: 500;
-  font-size: 25px;
-  color: rgb(26, 26, 26, 0.7);
-  padding: 10px 0px 0px 0px;
-  margin: 0 5px;
-  padding-left: 20px;
-  display: grid;
-  text-align: left;
-}
-
-div #content-services li {
-  background-color: rgb(180, 167, 167);
-  padding: 5px;
-  padding-left: 20px;
-  margin-left: 30px;
-  list-style: none;
-  text-decoration: none;
-  font-family: "poppins";
-  font-size: 18px;
-  font-weight: 700;
-  color: rgba(238, 230, 230, 0.7);
+  color: var(--white);
 }
 
 /*----Button--------*/
-a #btn {
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  justify-content: center;
-  width: 30px;
-  height: 50px;
+.btn {
+  margin-left: 24%;
 }
 
 #btn {
-  color: rgba(238, 230, 230, 0.7);
-  background-color: rgb(26, 26, 26, 0.7);
-  font-family: "poppins";
-  background-color: rgb(165, 69, 31);
-  padding-left: 20px;
-  margin: 15px 150px;
+  color: var(--white);
+  background-color: var(--main-red);
+  padding: 1em;
+  margin: 1em;
   justify-content: center;
 }
 
 /*----Footer Session----*/
 footer {
-  background-color: rgb(15, 14, 20);
-  color: whitesmoke;
-  display: grid;
-  font-family: "poppins";
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  height: 15vh;
-  padding: 10px;
-  border: 0;
-  margin: 0;
+  background-color: var(--black);
+  color: var(--white);
+
+  height: 30em;
+  padding: 2em;
 }
 
 .heading-footer {
-  color: whitesmoke;
   font-size: 18px;
   font-weight: 800;
   display: inline;
@@ -365,7 +267,6 @@ footer {
 }
 
 .subheading-footer {
-  color: whitesmoke;
   font-size: 18px;
   font-weight: 800;
   display: inline;
@@ -380,15 +281,14 @@ footer .icons-projects {
 
 .email {
   padding-top: 30px;
-  display: -ms-inline-grid;
   justify-content: flex-start;
 }
 
 i {
   height: 10vh;
   opacity: 0.9;
-  color: whitesmoke;
-  align-items: center;
+  color: rgb(242, 242, 242);
+
   margin-left: 20px;
 }
 
@@ -404,6 +304,7 @@ i {
 /*CSS BLOG PAGE */
 div #blog-img {
   background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
+  /*width: 20vw;*/
   height: 30vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -415,59 +316,17 @@ div #blog-img {
 }
 
 #content-blog .container-blog {
-  background-color: rgb(180, 167, 167);
   margin: 0px auto;
   margin-top: 20px;
 }
 
-div #content-blog h2 {
-  background-color: rgb(180, 167, 167);
-  font-family: "poppins";
-  font-weight: 700;
-  font-size: 42px;
-  color: rgb(165, 69, 31);
-  padding: 30px;
-  margin: 0 auto;
-  display: grid;
-  text-align: center;
-}
-
-#date-author  {
+#date-author {
   font-size: 10px;
   color: rgb(26, 26, 26, 0.9);
   padding: 15px;
   margin: 0px 20px;
   display: grid;
   text-align: left;
-}
-
-div #content-blog p {
-  background-color: rgb(180, 167, 167);
-  font-family: "poppins";
-  font-weight: 500;
-  font-size: 25px;
-  color: rgb(26, 26, 26, 0.7);
-  padding: 10px;
-  margin: 0px 20px;
-  text-align: left;
-}
-
-#blog-img h2 {
-  opacity: 1;
-  font-family: "poppins";
-  font-size: 60px;
-  font-weight: 1000;
-  display: inline;
-  margin-top: 40px;
-  color: rgb(242, 242, 242);
-  padding: 0px;
-}
-
-.blog-heading h2 {
-  display: inline;
-  align-content: center;
-  margin: 50px;
-  padding: 40px;
 }
 
 span {
