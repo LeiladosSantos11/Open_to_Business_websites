@@ -2,9 +2,11 @@
 
 Digital Business website:
 
-HTML,
-CSS,
-Bootstrap
+- HTML,
+- CSS,
+- Bootstrap
 and 
-JavaScript.
+- JavaScript
+
+Link: https://beijaflorwebsites.netlify.app/index.html
 
