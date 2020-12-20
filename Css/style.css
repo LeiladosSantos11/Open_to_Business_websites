@@ -5,6 +5,7 @@
   --main-red: #a54517;
   --main-rose: #c7b4b4;
   --main-gray: #1a1a1ab3;
+  --grey: #998d8db3;
 }
 
 *,
@@ -253,82 +254,68 @@ p {
 footer {
   background-color: var(--black);
   color: var(--white);
-
-  height: 30em;
-  padding: 2em;
+  height: 20em;
+  padding: 1em 1.5em;
+  font-weight: 500;
 }
 
 .heading-footer {
-  font-size: 18px;
-  font-weight: 800;
-  display: inline;
-  margin-left: 10px;
-  padding-top: 30px;
+  font-weight: 500;
 }
-
 .subheading-footer {
-  font-size: 18px;
-  font-weight: 800;
-  display: inline;
-  margin-left: 10px;
-  padding-top: 30px;
+  padding: 0.2em 0;
+  font-size: 1.5rem;
 }
 
-footer .icons-projects {
-  padding: 5px 0px;
-  display: inline;
-}
-
-.email {
-  padding-top: 30px;
-  justify-content: flex-start;
+.contact {
+  text-align: left;
+  font-size: 2em;
+  color: var(--white);
+  padding-bottom: 1em;
 }
 
 i {
-  height: 10vh;
+  height: 5vh;
   opacity: 0.9;
-  color: rgb(242, 242, 242);
-
-  margin-left: 20px;
+  color: var(--main-red);
+  margin-left: 1.25em;
+  padding: 0.5em 0;
 }
 
 .icons {
-  display: inline-block;
   justify-content: left;
 }
 
 .icons :hover {
-  color: red;
+  color: var(--main-rose);
 }
 
 /*CSS BLOG PAGE */
 div #blog-img {
   background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
-  /*width: 20vw;*/
   height: 30vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.blog-session {
-  background-color: rgb(180, 167, 167);
+.container-blog {
+  margin: 0 auto;
+  padding: 0.5em 0 0 1.25em;
 }
 
-#content-blog .container-blog {
-  margin: 0px auto;
-  margin-top: 20px;
+#content-blog {
+  text-align: center;
+  background-color: var(--main-rose);
 }
-
 #date-author {
-  font-size: 10px;
-  color: rgb(26, 26, 26, 0.9);
-  padding: 15px;
-  margin: 0px 20px;
-  display: grid;
+  font-size: 0.8rem;
+  color: var(--main-gray);
+  padding-left: 2.5em;
   text-align: left;
+  margin-bottom: 2em;
 }
 
 span {
-  color: rgb(165, 69, 31);
+  color: var(--main-red);
 }
