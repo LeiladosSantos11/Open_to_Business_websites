@@ -251,34 +251,62 @@ p {
 }
 
 /*----Footer Session----*/
-footer {
+.footer {
   background-color: var(--black);
   color: var(--white);
-  height: 20em;
-  padding: 1em 1.5em;
+  height: 25em;
+
   font-weight: 500;
+  text-align: left;
+  margin: 0 auto;
+}
+
+form {
+  background-color: var(--main-red);
+  padding: 1em;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: var(--white-2);
+  font-family: Poppins-Regular, sans-serif;
+  line-height: 24px;
+
+  overflow: hidden;
+}
+
+.input3 .contact3 {
+  padding: 0.5em;
+}
+
+#contact {
+  color: var(--white);
+  padding: 2em;
+}
+
+.contact-details {
+  text-align: center;
+  padding-top: 1.5em;
 }
 
 .heading-footer {
   font-weight: 500;
 }
+
 .subheading-footer {
   padding: 0.2em 0;
   font-size: 1.5rem;
 }
 
-.contact {
-  text-align: left;
-  font-size: 2em;
+#made {
   color: var(--white);
-  padding-bottom: 1em;
+  font-size: 10px;
+  margin: 0 auto;
+  padding-bottom: 5em;
 }
 
 i {
   height: 5vh;
   opacity: 0.9;
   color: var(--main-red);
-  margin-left: 1.25em;
   padding: 0.5em 0;
 }
 
@@ -301,13 +329,14 @@ div #blog-img {
 
 .container-blog {
   margin: 0 auto;
-  padding: 0.5em 0 0 1.25em;
+  padding: 2em 3em;
 }
 
 #content-blog {
   text-align: center;
   background-color: var(--main-rose);
 }
+
 #date-author {
   font-size: 0.8rem;
   color: var(--main-gray);
