@@ -255,7 +255,6 @@ p {
   background-color: var(--black);
   color: var(--white);
   height: 25em;
-
   font-weight: 500;
   text-align: left;
   margin: 0 auto;
@@ -263,32 +262,38 @@ p {
 
 form {
   background-color: var(--main-red);
-  padding: 1em;
+  padding: 2.5em;
   border-radius: 10px;
   box-sizing: border-box;
   color: var(--white-2);
   font-family: Poppins-Regular, sans-serif;
-  line-height: 24px;
-
+  line-height: 1.5rem;
+  font-weight: 600;
   overflow: hidden;
 }
 
-.input3 .contact3 {
+.contact3-form-btn {
   padding: 0.5em;
+  border-radius: 10px;
+}
+
+.input3 {
+  padding: 0.4em;
 }
 
 #contact {
   color: var(--white);
-  padding: 2em;
+  margin: 4em 0;
 }
 
 .contact-details {
-  text-align: center;
-  padding-top: 1.5em;
+  text-align: left;
+  padding-top: 2em;
 }
 
-.heading-footer {
+.heading-footer.contact3-form-title {
   font-weight: 500;
+  color: red;
 }
 
 .subheading-footer {
@@ -296,18 +301,11 @@ form {
   font-size: 1.5rem;
 }
 
-#made {
-  color: var(--white);
-  font-size: 10px;
-  margin: 0 auto;
-  padding-bottom: 5em;
-}
-
 i {
   height: 5vh;
   opacity: 0.9;
   color: var(--main-red);
-  padding: 0.5em 0;
+  padding: 0.3em;
 }
 
 .icons {
