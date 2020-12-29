@@ -91,7 +91,7 @@ img .d-block .w-100 {
 
 /*----Caroulsel Pictures----*/
 #container-pictures {
-  height: 70%;
+  height: 100%;
   width: 100%;
 }
 
@@ -99,25 +99,18 @@ img .d-block .w-100 {
   transform-style: preserve-3d;
 }
 
-img #img {
+img #img,
+.two {
   position: relative;
   text-align: center;
-  width: 70%;
 }
 
 img #image .two {
   text-align: center;
   position: relative;
-  height: 100vh;
+  height: 70vh;
 }
 
-#text {
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translate(-40%, -50%);
-}
 .carousel-item {
   background-position: center;
   background-repeat: no-repeat;
@@ -126,12 +119,16 @@ img #image .two {
 }
 
 /*----------Sessions-----------------------*/
-#container-about {
+#content-about,
+.content {
   background-color: var(--main-rose);
   margin: 0px auto;
-  margin-top: 1.25em;
+  padding: 2.5em 0;
 }
 
+.text {
+  padding: 2rem 0;
+}
 #content-blog {
   margin-left: 3em;
 }
@@ -154,7 +151,7 @@ div #do-img {
 }
 
 div #services-img {
-  background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
+  background-image: url("../Img/slide_two.jpg");
 }
 
 /******Typography*******/
@@ -182,6 +179,7 @@ header .first-heading {
 #caroulsel-heading {
   opacity: 1;
   padding: 0;
+  margin: 0 auto;
   font-size: 3.5rem;
   font-weight: 700;
   text-align: left;
@@ -226,11 +224,11 @@ p {
 .content {
   background-color: var(--main-rose);
 }
-
-.text {
+/*
+#text {
   padding: 3.5em 0;
 }
-
+*/
 .booking {
   margin-left: 2em;
   font-weight: 500;
@@ -253,11 +251,16 @@ p {
 /*----Footer Session----*/
 .footer {
   background-color: var(--black);
-  color: var(--white);
-  height: 25em;
   font-weight: 500;
-  text-align: left;
-  margin: 0 auto;
+}
+
+/*----Contact Session----*/
+.contact-title {
+  text-align: center;
+  font-weight: 600;
+  color: var(--main-rose);
+  padding: 0.75em 0;
+  font-size: 3rem;
 }
 
 form {
@@ -270,6 +273,7 @@ form {
   line-height: 1.5rem;
   font-weight: 600;
   overflow: hidden;
+  text-align: left;
 }
 
 .contact3-form-btn {
@@ -283,21 +287,19 @@ form {
 
 #contact {
   color: var(--white);
-  margin: 4em 0;
 }
 
 .contact-details {
   text-align: left;
-  padding-top: 2em;
+  padding: 2em;
 }
 
-.heading-footer.contact3-form-title {
-  font-weight: 500;
-  color: red;
+.contact {
+  font-weight: 600;
 }
 
 .subheading-footer {
-  padding: 0.2em 0;
+  padding: 0.3em 0;
   font-size: 1.5rem;
 }
 
@@ -316,6 +318,13 @@ i {
   color: var(--main-rose);
 }
 
+#made {
+  color: var(--main-rose);
+  font-size: 1rem;
+  text-align: center;
+  padding: 2em 0 1.5em 0;
+}
+
 /*CSS BLOG PAGE */
 div #blog-img {
   background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
@@ -323,11 +332,6 @@ div #blog-img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.container-blog {
-  margin: 0 auto;
-  padding: 2em 3em;
 }
 
 #content-blog {
@@ -340,7 +344,7 @@ div #blog-img {
   color: var(--main-gray);
   padding-left: 2.5em;
   text-align: left;
-  margin-bottom: 2em;
+  margin-top: 1em;
 }
 
 span {
