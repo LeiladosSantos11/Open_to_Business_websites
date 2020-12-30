@@ -83,6 +83,12 @@ nav#nav.navbar {
   margin: 0;
 }
 
+<<<<<<< HEAD
+/*----Caroulsel Pictures----*/
+#container-pictures {
+  height: 100%;
+  width: 100vw;
+=======
 img .d-block .w-100 {
   padding-left: 0;
   padding-top: 0;
@@ -93,6 +99,7 @@ img .d-block .w-100 {
 #container-pictures {
   height: 100%;
   width: 100%;
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
 }
 
 .carousel-inner {
@@ -101,6 +108,22 @@ img .d-block .w-100 {
 
 img #img,
 .two {
+<<<<<<< HEAD
+  position: relative;
+  text-align: center;
+}
+
+.carousel-item {
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  margin: 0;
+  position: absolute;
+  font-weight: 700;
+  color: white;
+}
+=======
   position: relative;
   text-align: center;
 }
@@ -118,6 +141,7 @@ img #image .two {
   margin: 0 auto;
 }
 
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
 /*----------Sessions-----------------------*/
 #content-about,
 .content {
@@ -129,6 +153,30 @@ img #image .two {
 .text {
   padding: 2rem 0;
 }
+<<<<<<< HEAD
+
+#content-blog {
+  margin: 3em 0;
+}
+
+/*-----Pictures----*/
+.img {
+  margin: 0 auto;
+  height: 100vh;
+  width: 70vw;
+  opacity: 0.8;
+}
+
+img,
+.carousel-item,
+.img,
+#blog-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+=======
 #content-blog {
   margin-left: 3em;
 }
@@ -142,6 +190,7 @@ img #image .two {
   opacity: 0.8;
 }
 
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
 div #about-img {
   background-image: url("../Img/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
 }
@@ -175,6 +224,15 @@ header .first-heading {
   font-size: 1.8rem;
 }
 
+<<<<<<< HEAD
+/***Carousel***/
+#caroulsel-heading {
+  opacity: 1;
+  padding-bottom: 2em;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0 auto;
+=======
 /***Carousel****/
 #caroulsel-heading {
   opacity: 1;
@@ -183,6 +241,7 @@ header .first-heading {
   font-size: 3.5rem;
   font-weight: 700;
   text-align: left;
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
   color: var(--white);
 }
 
@@ -223,6 +282,16 @@ p {
 
 .content {
   background-color: var(--main-rose);
+<<<<<<< HEAD
+}
+
+.booking {
+  margin-left: 2em;
+  font-weight: 500;
+  color: var(--white);
+}
+
+=======
 }
 /*
 #text {
@@ -235,6 +304,7 @@ p {
   color: var(--white);
 }
 
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
 /*----Button--------*/
 .btn {
   margin-left: 24%;
@@ -243,6 +313,10 @@ p {
 #btn {
   color: var(--white);
   background-color: var(--main-red);
+<<<<<<< HEAD
+  border-radius: 6px;
+=======
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
   padding: 1em;
   margin: 1em;
   justify-content: center;
@@ -255,14 +329,67 @@ p {
 }
 
 /*----Contact Session----*/
+<<<<<<< HEAD
+#contact {
+  background-color: var(--main-rose);
+  padding: 2rem 0 5em 0;
+}
+.contact-title {
+  text-align: center;
+  font-weight: 600;
+  color: var(--main-white);
+=======
 .contact-title {
   text-align: center;
   font-weight: 600;
   color: var(--main-rose);
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
   padding: 0.75em 0;
   font-size: 3rem;
 }
 
+<<<<<<< HEAD
+/*----Form----*/
+#form {
+  margin-left: 0;
+}
+
+form {
+  background-color: var(--main-red);
+  padding: 2.5em;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: var(--white-2);
+  font-family: Poppins-Regular, sans-serif;
+  line-height: 1.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-align: left;
+}
+
+.contact3-form-btn {
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.input3 {
+  padding: 0.4em;
+}
+
+#contact {
+  color: var(--white);
+}
+
+.contact-details {
+  text-align: center;
+  padding: 2em;
+}
+
+.contact {
+  font-weight: 600;
+}
+
+=======
 form {
   background-color: var(--main-red);
   padding: 2.5em;
@@ -298,6 +425,7 @@ form {
   font-weight: 600;
 }
 
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
 .subheading-footer {
   padding: 0.3em 0;
   font-size: 1.5rem;
@@ -322,16 +450,23 @@ i {
   color: var(--main-rose);
   font-size: 1rem;
   text-align: center;
+<<<<<<< HEAD
+  padding: 2em 0 0.5em 0;
+=======
   padding: 2em 0 1.5em 0;
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
 }
 
 /*CSS BLOG PAGE */
 div #blog-img {
   background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
   height: 30vh;
+<<<<<<< HEAD
+=======
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+>>>>>>> eb8d53db39c9c0a9f12fd411beda02ba55efb78e
 }
 
 #content-blog {
