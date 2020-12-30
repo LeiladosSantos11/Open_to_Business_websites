@@ -1,0 +1,403 @@
+:root {
+  --black: #1c1c1c;
+  --white: #f2f2f2;
+  --white-2: rgb(218, 216, 216);
+  --main-red: #a54517;
+  --main-rose: #c7b4b4;
+  --main-gray: #1a1a1ab3;
+  --grey: #998d8db3;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--black) !important;
+  text-align: center;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/*----Header Session/NavBar----*/
+#header.container {
+  background-color: var(--main-black);
+}
+
+header li {
+  display: inline;
+  text-align: center;
+  opacity: 0.75;
+  color: var(--white);
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 7px;
+}
+
+ul #nav-menu {
+  margin-left: 5px;
+}
+
+header #nav li a {
+  list-style: none;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+nav#nav.navbar {
+  color: var(--white);
+  text-decoration: none;
+  padding-top: 10px;
+  margin: 0;
+}
+
+/*----Caroulsel Pictures----*/
+#container-pictures {
+  height: 100%;
+  width: 100vw;
+}
+
+.carousel-inner {
+  transform-style: preserve-3d;
+}
+
+img #img,
+.two {
+  position: relative;
+  text-align: center;
+}
+
+.carousel-item {
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  margin: 0;
+  position: absolute;
+  font-weight: 700;
+  color: white;
+}
+
+/*----------Sessions-----------------------*/
+#content-about,
+.content {
+  background-color: var(--main-rose);
+  margin: 0px auto;
+  padding: 2.5em 0;
+}
+
+.text {
+  padding: 2rem 0;
+}
+
+#content-blog {
+  margin: 3em 0;
+}
+
+/*-----Pictures----*/
+.img {
+  margin: 0 auto;
+  height: 100vh;
+  width: 70vw;
+  opacity: 0.8;
+}
+
+img,
+.carousel-item,
+.img,
+#blog-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*-----Pictures----*/
+.img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+  opacity: 0.8;
+}
+
+div #about-img {
+  background-image: url("../Img/nikita-kachanovsky-bLY5JqP_Ldw-unsplash.jpg");
+}
+
+div #do-img {
+  background-image: url("../Img/joel-wyncott-6_OoBGfQOfY-unsplash.jpg");
+}
+
+div #services-img {
+  background-image: url("../Img/slide_two.jpg");
+}
+
+/******Typography*******/
+
+/***Nav****/
+.header-headings {
+  text-align: center;
+  padding: 1em 0 1.5em 0;
+}
+
+header .first-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--white-2);
+}
+
+.subheading {
+  font-weight: 500;
+  padding: 0;
+  color: var(--main-red);
+  font-size: 1.8rem;
+}
+
+/***Carousel***/
+.caroulsel-heading {
+  opacity: 1;
+  padding-bottom: 2em;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0 auto;
+  color: var(--white);
+}
+
+span {
+  color: var(--main-red);
+}
+
+.session-titles {
+  text-align: left;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--main-red);
+  padding: 1.5em 0px 0.3em 1em;
+}
+
+/***Session-Two****/
+.text-session-two {
+  color: var(--main-rose);
+}
+
+h3 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 3em 0;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--main-gray);
+  display: grid;
+  text-align: left;
+  padding-left: 1.25em;
+}
+
+/*----Content Session----*/
+
+.content {
+  background-color: var(--main-rose);
+}
+
+.booking {
+  margin-left: 2em;
+  font-weight: 500;
+  color: var(--white);
+}
+
+/*----Button--------*/
+.btn {
+  margin-left: 24%;
+}
+
+#btn {
+  color: var(--white);
+  background-color: var(--main-red);
+  border-radius: 6px;
+  padding: 1em;
+  margin: 1em;
+  justify-content: center;
+}
+
+/*----Footer Session----*/
+.footer {
+  background-color: var(--black);
+  font-weight: 500;
+}
+
+/*----Contact Session----*/
+<<<<<<< HEAD #contact {
+  background-color: var(--main-rose);
+  padding: 2rem 0 5em 0;
+}
+.contact-title {
+  text-align: center;
+  font-weight: 600;
+  color: var(--main-white);
+  padding: 0.75em 0;
+  font-size: 3rem;
+}
+
+/*----Form----*/
+#form {
+  margin-left: 0;
+}
+
+form {
+  background-color: var(--main-red);
+  padding: 2.5em;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: var(--white-2);
+  font-family: Poppins-Regular, sans-serif;
+  line-height: 1.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-align: left;
+}
+
+.contact3-form-btn {
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.input3 {
+  padding: 0.4em;
+}
+
+#contact {
+  color: var(--white);
+}
+
+.contact-details {
+  text-align: center;
+  padding: 2em;
+}
+
+.contact {
+  font-weight: 600;
+}
+
+form {
+  background-color: var(--main-red);
+  padding: 2.5em;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: var(--white-2);
+  font-family: Poppins-Regular, sans-serif;
+  line-height: 1.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-align: left;
+}
+
+.contact3-form-btn {
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.input3 {
+  padding: 0.4em;
+}
+
+#contact {
+  color: var(--white);
+}
+
+.contact-details {
+  text-align: left;
+  padding: 2em;
+}
+
+.contact {
+  font-weight: 600;
+}
+
+.subheading-footer {
+  padding: 0.3em 0;
+  font-size: 1.5rem;
+}
+
+i {
+  height: 5vh;
+  opacity: 0.9;
+  color: var(--main-red);
+  padding: 0.3em;
+}
+
+.icons {
+  justify-content: left;
+}
+
+.icons :hover {
+  color: var(--main-rose);
+}
+
+#made {
+  color: var(--main-rose);
+  font-size: 1rem;
+  text-align: center;
+  padding: 2em 0 0.5em 0;
+}
+
+/*CSS BLOG PAGE */
+div #blog-img {
+  background-image: url("../Img/charles-deluvio-Lks7vei-eAg-unsplash.jpg");
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content-blog {
+  text-align: center;
+  background-color: var(--main-rose);
+}
+
+#date-author {
+  font-size: 0.8rem;
+  color: var(--main-gray);
+  padding-left: 2.5em;
+  text-align: left;
+  margin-top: 1em;
+}
+
+span {
+  color: var(--main-red);
+}
