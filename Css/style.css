@@ -83,23 +83,10 @@ nav#nav.navbar {
   margin: 0;
 }
 
-
 /*----Caroulsel Pictures----*/
 #container-pictures {
   height: 100%;
   width: 100vw;
-}
-
-img .d-block .w-100 {
-  padding-left: 0;
-  padding-top: 0;
-  height: 70%;
-}
-
-/*----Caroulsel Pictures----*/
-#container-pictures {
-  height: 100%;
-  width: 100%;
 }
 
 .carousel-inner {
@@ -121,23 +108,7 @@ img #img,
   position: absolute;
   font-weight: 700;
   color: white;
-  position: relative;
-  text-align: center;
 }
-
-img #image .two {
-  text-align: center;
-  position: relative;
-  height: 70vh;
-}
-
-.carousel-item {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-}
-
 
 /*----------Sessions-----------------------*/
 #content-about,
@@ -150,7 +121,6 @@ img #image .two {
 .text {
   padding: 2rem 0;
 }
-
 
 #content-blog {
   margin: 3em 0;
@@ -172,7 +142,6 @@ img,
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 /*-----Pictures----*/
 .img {
@@ -217,15 +186,15 @@ header .first-heading {
   font-size: 1.8rem;
 }
 
-
 /***Carousel***/
-#caroulsel-heading {
+.caroulsel-heading {
   opacity: 1;
   padding-bottom: 2em;
   font-size: 3.5rem;
   font-weight: 700;
   margin: 0 auto;
-
+  color: var(--white);
+}
 
 span {
   color: var(--main-red);
@@ -264,7 +233,6 @@ p {
 
 .content {
   background-color: var(--main-rose);
-
 }
 
 .booking {
@@ -272,13 +240,6 @@ p {
   font-weight: 500;
   color: var(--white);
 }
-
-.booking {
-  margin-left: 2em;
-  font-weight: 500;
-  color: var(--white);
-}
-
 
 /*----Button--------*/
 .btn {
@@ -288,9 +249,7 @@ p {
 #btn {
   color: var(--white);
   background-color: var(--main-red);
-
   border-radius: 6px;
-
   padding: 1em;
   margin: 1em;
   justify-content: center;
@@ -303,8 +262,7 @@ p {
 }
 
 /*----Contact Session----*/
-
-#contact {
+<<<<<<< HEAD #contact {
   background-color: var(--main-rose);
   padding: 2rem 0 5em 0;
 }
@@ -312,15 +270,9 @@ p {
   text-align: center;
   font-weight: 600;
   color: var(--main-white);
-
-.contact-title {
-  text-align: center;
-  font-weight: 600;
-  color: var(--main-rose);
   padding: 0.75em 0;
   font-size: 3rem;
 }
-
 
 /*----Form----*/
 #form {
@@ -362,7 +314,6 @@ form {
   font-weight: 600;
 }
 
-
 form {
   background-color: var(--main-red);
   padding: 2.5em;
@@ -398,7 +349,6 @@ form {
   font-weight: 600;
 }
 
-
 .subheading-footer {
   padding: 0.3em 0;
   font-size: 1.5rem;
@@ -424,7 +374,6 @@ i {
   font-size: 1rem;
   text-align: center;
   padding: 2em 0 0.5em 0;
-
 }
 
 /*CSS BLOG PAGE */
