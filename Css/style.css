@@ -59,7 +59,7 @@ ul #nav-menu {
   margin-left: 5px;
 }
 
-header #nav li a {
+#nav ul li a {
   list-style: none;
   color: var(--white);
   font-size: 18px;
@@ -67,9 +67,15 @@ header #nav li a {
   text-decoration: none;
 }
 
+.back {
+  padding: 0 0 1em 1em;
+}
+
 a {
+  padding-left: 1em;
   text-decoration: none;
   opacity: 0.75;
+  text-decoration: none;
 }
 
 a:hover {
@@ -165,6 +171,22 @@ div #services-img {
   background-image: url("../Img/slide_two.jpg");
 }
 
+div #fearless-img {
+  background-image: url("../Img/women-on-laptops-around-table.jpg");
+}
+
+div #photo-img {
+  background-image: url("../Img/Caravan.jpg");
+}
+
+div #base-img {
+  background-image: url("../Img/hero-desktop\ \(1\).jpg");
+  margin: 0 auto;
+  height: 100vh;
+  opacity: 0.8;
+}
+
+
 /******Typography*******/
 
 /***Nav****/
@@ -243,7 +265,7 @@ p {
 
 /*----Button--------*/
 .btn {
-  margin-left: 24%;
+  margin-left: 22%;
 }
 
 #btn {
@@ -252,7 +274,12 @@ p {
   border-radius: 6px;
   padding: 1em;
   margin: 1em;
-  justify-content: center;
+  justify-self: center;
+  text-align: center;
+}
+
+#btn {
+  margin-left: 45%;
 }
 
 /*----Footer Session----*/
@@ -262,87 +289,57 @@ p {
 }
 
 /*----Contact Session----*/
-<<<<<<< HEAD #contact {
+#contact {
   background-color: var(--main-rose);
   padding: 2rem 0 5em 0;
 }
-.contact-title {
+.contact-title, .fearless-title, .photo-title {
   text-align: center;
   font-weight: 600;
-  color: var(--main-white);
+  color: var(--main-red);
   padding: 0.75em 0;
   font-size: 3rem;
+  justify-content: center;
 }
 
-/*----Form----*/
-#form {
-  margin-left: 0;
+.fearless-title {
+  color: orange;
 }
-
-form {
-  background-color: var(--main-red);
-  padding: 2.5em;
-  border-radius: 10px;
-  box-sizing: border-box;
-  color: var(--white-2);
-  font-family: Poppins-Regular, sans-serif;
-  line-height: 1.5rem;
-  font-weight: 600;
-  overflow: hidden;
-  text-align: left;
-}
-
-.contact3-form-btn {
-  padding: 0.5em;
-  border-radius: 10px;
-}
-
-.input3 {
-  padding: 0.4em;
-}
+/*----Project Page----*/
 
 #contact {
   color: var(--white);
+  font-size: 2rem;
 }
 
 .contact-details {
   text-align: center;
-  padding: 2em;
+  padding: 2em 0;
 }
 
 .contact {
   font-weight: 600;
 }
 
-form {
-  background-color: var(--main-red);
-  padding: 2.5em;
-  border-radius: 10px;
-  box-sizing: border-box;
-  color: var(--white-2);
-  font-family: Poppins-Regular, sans-serif;
-  line-height: 1.5rem;
-  font-weight: 600;
-  overflow: hidden;
-  text-align: left;
+
+
+#btn {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 20px;
+  color: ;
+  background-color: black;
 }
 
-.contact3-form-btn {
-  padding: 0.5em;
-  border-radius: 10px;
-}
 
-.input3 {
-  padding: 0.4em;
-}
 
 #contact {
   color: var(--white);
+  background-color: var(--main-rose);
 }
 
 .contact-details {
-  text-align: left;
-  padding: 2em;
+  text-align: center;
 }
 
 .contact {
