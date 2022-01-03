@@ -8,5 +8,5 @@ Digital Business website:
 and 
 - JavaScript
 
-Link: https://beijaflorwebsites.netlify.app/index.html
+Link: https://opentobusinesswebsites.netlify.app/
 
